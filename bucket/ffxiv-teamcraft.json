@@ -1,0 +1,12 @@
+{
+    "version": "9.0.4",
+    "description": "Collaborative crafting tool for Final Fantasy XIV.",
+    "homepage": "https://ffxivteamcraft.com/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/releases/download/v9.0.4/ffxiv-teamcraft-9.0.4-full.nupkg",
+            "hash": "921a922588e9d47e15e3576628bbdc42a38b1e1d4398b6b00b52bea38b80a397"
+        }
+    }
+}
