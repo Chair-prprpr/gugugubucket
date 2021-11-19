@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/releases/download/v9.0.4/ffxiv-teamcraft-9.0.4-full.nupkg",
-            "hash": "921a922588e9d47e15e3576628bbdc42a38b1e1d4398b6b00b52bea38b80a397"
+            "hash": "8e2ae9ce9f197f68397f816e1ee877644f8464946b12e5a460e971e2ef560842"
         }
     }
 }
