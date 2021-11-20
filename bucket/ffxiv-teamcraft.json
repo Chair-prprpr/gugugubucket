@@ -8,5 +8,17 @@
             "url": "https://github.com/ffxiv-teamcraft/ffxiv-teamcraft/releases/download/v9.0.4/ffxiv-teamcraft-9.0.4-full.nupkg",
             "hash": "8e2ae9ce9f197f68397f816e1ee877644f8464946b12e5a460e971e2ef560842"
         }
-    }
+    },
+	"shortcuts": [
+		[
+			"lib\\net45\\FFXIV Teamcraft.exe",
+			"FFXIV Teamcraft"
+		]
+	],
+	"post_install": [
+		"Remove-Item \"$dir\\`_rels\" -Force -Recurse",
+		"Remove-Item \"$dir\\`package\" -Force -Recurse",
+		"Remove-Item \"$dir\\`ffxiv-teamcraft.nuspec\" -Force -Recurse",
+		"Remove-Item \"$dir\\`[Content_Types].xml\" -Force -Recurse"
+	]
 }
