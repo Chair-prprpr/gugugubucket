@@ -18,7 +18,7 @@
 	"post_install": [
 		"Remove-Item \"$dir\\`_rels\" -Force -Recurse",
 		"Remove-Item \"$dir\\`package\" -Force -Recurse",
-		"Remove-Item \"$dir\\`ffxiv-teamcraft.nuspec\" -Force -Recurse",
-		"Remove-Item \"$dir\\`[Content_Types].xml\" -Force -Recurse"
+		"Remove-Item \"$dir\\ffxiv-teamcraft.nuspec\" -Force",
+		"Remove-Item \"$dir\\\[Content_Types\].xml\" -Force"
 	]
 }
